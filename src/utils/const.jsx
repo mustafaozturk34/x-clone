@@ -222,3 +222,30 @@ export const topics = [
     postCount: 13663
   }
 ]
+
+export const footerContents = [
+  {
+    path: '/tos',
+    content: 'Terms of Service'
+  },
+  {
+    path: '/privacy',
+    content: 'Privacy Policy'
+  },
+  {
+    path: '/rules-and-policies/x-cookies',
+    content: 'Cookie Policy'
+  },
+  {
+    path: '/imprint',
+    content: 'Imprint'
+  },
+  {
+    path: '/resources/accessibility',
+    content: 'Accessibility'
+  },
+  {
+    path: '/adsinfo',
+    content: 'Ads info'
+  }
+]
