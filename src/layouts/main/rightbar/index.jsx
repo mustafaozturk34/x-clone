@@ -1,8 +1,8 @@
-import Premium from "~/pages/layouts/main/rightbar/premium";
 import Search from "./search";
 import Topics from "./topics";
 import WhoFollow from "./who-follow";
 import Footer from "./footer";
+import Premium from "./premium";
 
 export default function RightBar() {
     return (

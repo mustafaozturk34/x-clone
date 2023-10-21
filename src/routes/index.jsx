@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "~/layouts/main";
 import Bookmarks from "~/pages/bookmarks";
 import Explore from "~/pages/explore";
 import Home from "~/pages/home";
-import MainLayout from "~/pages/layouts/main";
 import Lists from "~/pages/lists";
 import Messages from "~/pages/messages";
 import NotFound from "~/pages/not-found";

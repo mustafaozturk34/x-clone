@@ -16,7 +16,7 @@ const initialState = {
     baseSecondary: '#71767b'
   },
   boxShadow: 'rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px',
-  fontSize: '16px',
+  fontSize: 16,
 
   //AZ KOYU
   // backgroundColor: {
@@ -64,7 +64,11 @@ const appearance = createSlice({
       state.color = action.payload;
     },
     _setFontSize: (state, action) => {
+      console.log(state.fontSize)
+      
       state.fontSize = action.payload;
+      console.log(state.fontSize)
+
     },
     _setBowShadow: (state, action) => {
       state.boxShadow = action.payload;

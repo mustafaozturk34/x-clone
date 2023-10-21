@@ -23,7 +23,7 @@ export default function MainLayout() {
 
         document.documentElement.style.setProperty('--box-shadow', appearance.boxShadow)
 
-        document.documentElement.style.setProperty('--font-size', appearance.fontSize)
+        document.documentElement.style.setProperty('--font-size', appearance.fontSize + 'px')
     }, [appearance])
     return (
        <div className="w-[1265px] mx-auto flex">
