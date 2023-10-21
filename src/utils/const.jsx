@@ -180,7 +180,7 @@ export const mainMenu = [
   },
   {
     path: () => {
-      return  `/${store.getState()?.auth?.currentAccount?.username}`
+      return `/${store.getState()?.auth?.currentAccount?.username}`;
     },
     title: "Profile",
     icon: {
@@ -201,51 +201,77 @@ export const mainMenu = [
         </svg>
       ),
     },
-  }
+  },
 ];
-
 
 export const topics = [
   {
-    title: 'Türkiye tarihinde gündemde' ,
+    title: "Türkiye tarihinde gündemde",
     topic: {
-      type: 'tag',
-      value: 'dilanpolat'
-    }
+      type: "tag",
+      value: "dilanpolat",
+    },
   },
   {
-    title: 'Türkiye tarihinde gündemde' ,
+    title: "Türkiye tarihinde gündemde",
     topic: {
-      type: 'query',
-      value: 'Starlink'
+      type: "query",
+      value: "Starlink",
     },
-    postCount: 13663
-  }
-]
+    postCount: 13663,
+  },
+];
 
 export const footerContents = [
   {
-    path: '/tos',
-    content: 'Terms of Service'
+    path: "/tos",
+    content: "Terms of Service",
   },
   {
-    path: '/privacy',
-    content: 'Privacy Policy'
+    path: "/privacy",
+    content: "Privacy Policy",
   },
   {
-    path: '/rules-and-policies/x-cookies',
-    content: 'Cookie Policy'
+    path: "/rules-and-policies/x-cookies",
+    content: "Cookie Policy",
   },
   {
-    path: '/imprint',
-    content: 'Imprint'
+    path: "/imprint",
+    content: "Imprint",
   },
   {
-    path: '/resources/accessibility',
-    content: 'Accessibility'
+    path: "/resources/accessibility",
+    content: "Accessibility",
   },
   {
-    path: '/adsinfo',
-    content: 'Ads info'
-  }
-]
+    path: "/adsinfo",
+    content: "Ads info",
+  },
+];
+
+export const colors = [
+  {
+    primary: "#1d9bf0",
+    secondary: "#8ecdf8",
+  },
+  {
+    primary: "#ffd400",
+    secondary: "#ffea80",
+  },
+  {
+    primary: "#f91880",
+    secondary: "#fc8cc0",
+  },
+  {
+    primary: "#7856ff",
+    secondary: "#bcabff",
+  },
+  {
+    primary: "#ff7a00",
+    secondary: "#ffbd80",
+  },
+  {
+    primary: "#00ba7c",
+    secondary: "#80ddbe",
+  },
+];

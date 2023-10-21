@@ -42,7 +42,7 @@ export default function More({ close }) {
           )}
         </button>
       ))}
-      <div className="h-px bg-[#2f3336] my-3" />
+      <div className="h-px bg-[color:var(--background-third)] my-3" />
       <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] font-bold leading-[20px]">
         <div className="max-w-[228px]"> Add an existing account</div>
       </button>
