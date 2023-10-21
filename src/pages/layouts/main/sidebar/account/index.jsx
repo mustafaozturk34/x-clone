@@ -11,11 +11,11 @@ export default function Account() {
           <img src={account.avatar} className="w-10 h-10 rounded-full" alt="" />
           <div className="mx-3 text-[15px]">
             <h6 className="font-bold leading-[20px]">{account.fullName}</h6>
-            <div className="text-[#71767b]">@{account.username}</div>
+            <div className="text-[color:var(--color-base-secondary)]">@{account.username}</div>
           </div>
           <svg
             viewBox="0 0 0 24"
-            className="text-[#e7e9ea] ml-auto"
+            className="ml-auto"
             width={18.75}
           >
             <path
@@ -32,7 +32,7 @@ export default function Account() {
           leaveFrom="transform opacity-100"
           leaveTo="transform opacity-0"
         >
-          <Popover.Panel className="absolute bottom-[80px] -translate-y-2 py-3 w-[300px] left-1/2 -translate-x-1/2 bg-black shadow-box rounded-2xl overflow-hidden">
+          <Popover.Panel className="absolute bottom-[80px] -translate-y-2 py-3 w-[300px] left-1/2 -translate-x-1/2 bg-[color:var(--background-primary)] shadow-box rounded-2xl overflow-hidden">
             {({close}) => (
               <More close={close}/>
             )}
