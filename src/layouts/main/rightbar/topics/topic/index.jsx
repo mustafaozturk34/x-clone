@@ -6,7 +6,7 @@ export default function Topic({ item }) {
   return (
     <Link
       to="/"
-      className="py-3 px-4 transition-colors hover:bg-[color:cal(--background-third)] relative"
+      className="py-3 px-4 transition-colors hover:bg-[color:var(--background-third)] relative"
     >
       <div className="text-[0.813rem] text-[color:var(--color-base-secondary)] leading-4">
         {item.title}

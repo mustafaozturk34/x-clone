@@ -4,8 +4,7 @@ const initialState = {
   //KOYU
   backgroundColor: {
     name: 'light',
-    primary: '#000000',
-    primaryAlpha: "#000000a6",
+    primary: '#000000a6',
     secondary: '#16181c',
     third: '#273340',
     modal: '#5b708366'
@@ -22,8 +21,7 @@ const initialState = {
   //AZ KOYU
   // backgroundColor: {
   //   name: 'dark',
-  //   primary: '#15202b',
-  //   primaryAlpha: "#15202ba6",
+  //   primary: '#15202ba6',
   //   secondary: '#1e2732',
   //   third: '#273340',
   //   modal: '#5b708366'
@@ -40,8 +38,7 @@ const initialState = {
   //BEYAZ
   // backgroundColor: {
   //   name: 'darker'
-  //   primary: '#ffffff',
-  //   primaryAlpha: "#ffffffa6",
+  //   primary: '#ffffffa6',
   //   secondary: '#f7f9f9',
   //   third: '#eff3f4',
   //   modal: '#00000066'
