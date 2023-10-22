@@ -41,13 +41,13 @@ export default function More({ close }) {
         </button>
       ))}
       <div className="h-px bg-[color:var(--background-third)] my-3" />
-      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full text-[15px] font-bold leading-[20px]">
+      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full font-bold leading-[1.25rem]">
         <div className="max-w-[228px]"> Add an existing account</div>
       </button>
-      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full text-[15px] font-bold leading-[20px]">
+      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full font-bold leading-[1.25rem]">
         <div className="max-w-[228px]"> Manage accounts</div>
       </button>
-      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full text-[15px] font-bold leading-[20px]">
+      <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full font-bold leading-[1.25rem]">
         <div className="max-w-[228px]">Log out @{currentAccount.username}</div>
       </button>
     </div>
