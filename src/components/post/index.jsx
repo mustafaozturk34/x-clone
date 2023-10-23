@@ -1,4 +1,6 @@
 import { numberFormat } from "~/utils/format";
+import Photo from "./photo";
+import Poll from "./poll";
 
 export default function Post({ post }) {
   return (
@@ -36,7 +38,12 @@ export default function Post({ post }) {
               __html: post.content.replace(/\n/g, "<br>"),
             }}
           />
-
+          {post?.type === 'photo' && (
+            <Photo photos={post.photos}/>
+          )}
+          {post?.type === 'poll' && (
+            <Poll poll={post?.poll}/>
+          )}
           <div className="flex -ml-1.5 mt-1.5">
             <div className="flex-1 group flex items-center gap-px">
               <div className="w-[2.172rem] h-[2.172rem] transition-colors flex items-center justify-center text-[color:var(--color-base-secondary)] group-hover:bg-[#1d9bf01a] rounded-full group-hover:text-[#1d9bf0]">

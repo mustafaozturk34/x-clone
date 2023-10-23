@@ -14,6 +14,7 @@ import { colors, fontSizes } from "~/utils/const";
 
 export default function AppearanceModal({ close }) {
   const { backgroundColor, color, fontSize } = useAppearance();
+  console.log(backgroundColor)
   const [fontSizePercent, setFontSizePercent] = useState(0);
 
   useEffect(() => {

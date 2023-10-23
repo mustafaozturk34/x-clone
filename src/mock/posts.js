@@ -1,12 +1,10 @@
 export const posts = [
   {
     id: "1708632465282150796",
+    type: "photo",
     content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
     photos: [
       "https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large",
-      "https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large",
-      "https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large",
     ],
     account: {
       avatar:
@@ -23,9 +21,11 @@ export const posts = [
   },
   {
     id: "1708632465282150796",
+    type: "photo",
     content: `Imagination Land!`,
     photos: [
       "https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900",
+      "https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large",
     ],
     account: {
       avatar:
@@ -66,12 +66,12 @@ And people have been busy executing god-like tasks.
   },
   {
     id: "1708810187170087410",
+    type: "photo",
     content: `İstanbul'da Cumhuriyet'in 100. yılına özel, 100 gün boyunca Yerebatan Sarnıcı, Şerefiye Sarnıcı, Miniatürk ve Panorama 1453 Tarih Müzesi ücretsiz ziyaret edilebilecek.`,
     photos: [
       "https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900",
       "https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900",
       "https://pbs.twimg.com/media/F7bptn2XkAAuPFn?format=jpg&name=900x900",
-      "https://pbs.twimg.com/media/F7bpua1WEAAwz7C?format=jpg&name=900x900",
     ],
     account: {
       avatar:
@@ -88,6 +88,7 @@ And people have been busy executing god-like tasks.
   },
   {
     id: "1708707876628476134",
+    type: "photo",
     content: `OpenAI's latest DALL-E 3 model is officially available free to try on Bing.
 
 The quality is insane, comparable to Midjourney.
@@ -97,6 +98,9 @@ This prompt is going viral- mimicking a creepy iPhone capture that looks insanel
 Prompt in ALT tag + more examples in thread:`,
     photos: [
       "https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/F7bpua1WEAAwz7C?format=jpg&name=900x900",
     ],
     account: {
       avatar:
@@ -110,6 +114,45 @@ Prompt in ALT tag + more examples in thread:`,
       repost: 999999,
       like: 999999,
       view: 99999999,
+    },
+  },
+  {
+    id: "1708704613141270652",
+    type: "poll",
+    content: "ANKETT",
+    poll: {
+      voted: false,
+      votes: 16,
+      answers: [
+        {
+          id: 1,
+          text: "Yes",
+          votes: 8
+        },
+        {
+          id: 2,
+          text: "No",
+          votes: 3
+        },
+        {
+          id: 3,
+          text: "Maybee",
+          votes: 5
+        },
+      ],
+    },
+    account: {
+      avatar:
+        "https://pbs.twimg.com/profile_images/1696215555148046336/xCMn27ZY_400x400.jpg",
+      username: "sairahul1",
+      fullName: "Sai Rahul",
+      verified: true,
+    },
+    stats: {
+      comments: 25,
+      repost: 12,
+      like: 99,
+      view: 2341,
     },
   },
 ];
